@@ -36,7 +36,8 @@ import cn.sharesdk.framework.utils.UIHandler;
 public class SignupPage extends FakeActivity implements OnClickListener, Callback {
 
 	/** 修改用户信息dialog,如用户信息，备注信息*/
-	private enum ChangeUserType {USER_NAME, USER_NOTE};
+	private enum ChangeUserType {USER_NAME, USER_NOTE}
+
 	/**加载对话框*/
 	private static final int SHOW_PROGRESS_DIALOG = 1;
 	/**加载用户icon*/
